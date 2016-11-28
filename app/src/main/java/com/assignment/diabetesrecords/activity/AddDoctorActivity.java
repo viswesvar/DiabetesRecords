@@ -14,8 +14,7 @@ public class AddDoctorActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_doctor);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
     }

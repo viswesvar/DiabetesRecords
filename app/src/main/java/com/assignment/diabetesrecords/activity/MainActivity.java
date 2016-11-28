@@ -30,7 +30,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements
-        FragmentManager.OnBackStackChangedListener {
+        FragmentManager.OnBackStackChangedListener
+        {
 
     /** The Drawer toggle. */
     private ActionBarDrawerToggle mDrawerToggle;
@@ -62,7 +63,35 @@ public class MainActivity extends AppCompatActivity implements
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
+        viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels)
+            {
+
+            }
+
+            @Override
+            public void onPageSelected(int position)
+            {
+                //uploadTabAndBannerImages(position);
+                if(position == 0)
+                {
+                    setupViewPager(viewPager);
+                }
+
+
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+
+            }
+        });
+
         setupViewPager(viewPager);
+
+
 
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
@@ -85,6 +114,12 @@ public class MainActivity extends AppCompatActivity implements
 
 
     }
+            public void refreshTabs()
+            {
+               // viewPager = (ViewPager) findViewById(R.id.viewpager);
+                setupViewPager(viewPager);
+               // viewPager.setCurrentItem(0);
+            }
 
 
 
@@ -242,7 +277,9 @@ public class MainActivity extends AppCompatActivity implements
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFrag(new SummaryFragment(), "Summary");
-        adapter.addFrag(new EntriesFragment(), "Entries");
+
+     //   EntriesFragment entriesFragment = EntriesFragment.newInstance(this);
+        adapter.addFrag(EntriesFragment.newInstance(MainActivity.this), "Entries");
         adapter.addFrag(new GraphFragment(), "Graph");
         adapter.addFrag(new MedicineFragment(), "Medicine");
         adapter.addFrag(new DoctorFragment(), "Doctor");
@@ -254,6 +291,8 @@ public class MainActivity extends AppCompatActivity implements
     public void onBackStackChanged() {
 
     }
+
+
 
     class ViewPagerAdapter extends FragmentPagerAdapter {
         private final List<Fragment> mFragmentList = new ArrayList<>();
@@ -282,6 +321,8 @@ public class MainActivity extends AppCompatActivity implements
         public CharSequence getPageTitle(int position) {
             return mFragmentTitleList.get(position);
         }
+
+
     }
 
 

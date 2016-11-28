@@ -84,7 +84,7 @@
                 />
 
             <Spinner
-                android:id="@+id/ReadingTimings"
+                android:id="@+id/spReadingTimings"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/glucose_reading_taken_arrays"
@@ -107,7 +107,7 @@
                 android:layout_weight="1">
 
                 <EditText
-                    android:id="@+id/readinget"
+                    android:id="@+id/etReading"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Glucose Reading"
@@ -136,14 +136,17 @@
                 android:layout_weight="1">
 
                 <EditText
-                    android:id="@+id/noteet"
+                    android:id="@+id/etNote"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Note"
                     android:imeOptions="actionUnspecified"
                     android:paddingBottom="20dp"
                     android:singleLine="true"
-                    android:textAppearance="?android:textAppearanceSmall" />
+                    android:textAppearance="?android:textAppearanceSmall"
+
+
+                    />
 
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
@@ -161,7 +164,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="70dp"
+
+        android:layout_marginTop="50dp"
         >
 
         <Button

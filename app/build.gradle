@@ -29,5 +29,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.wdullaer:materialdatetimepicker:2.2.0'
     compile 'com.jjoe64:graphview:4.2.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
 
 }
