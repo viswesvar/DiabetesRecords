@@ -36,30 +36,7 @@
 
 
             >
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight=".5"
-                android:layout_height="wrap_content"
-                android:text="5.50 mmol/L"
-                android:textColor="@color/colorPrimary"
-                android:textSize="18dp"
-                />
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight=".25"
-                android:layout_height="wrap_content"
-                android:text="01-10-2016"
-                android:textColor="@color/colorPrimary"
 
-                />
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight=".25"
-                android:layout_height="wrap_content"
-                android:text="09:00 AM"
-                android:textColor="@color/colorPrimary"
-
-                />
 
 
         </LinearLayout>
