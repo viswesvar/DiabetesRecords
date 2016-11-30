@@ -1,7 +1,7 @@
 package com.assignment.diabetesrecords.common.my_validator;
 
 /**
- * Created by lokendra on 11/24/16.
+ * Created by Viswesvar on 11/24/16.
  */
 public class MyValidator {
 
