@@ -19,9 +19,28 @@
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             >
            <RelativeLayout
+<<<<<<< HEAD
+               android:layout_marginTop="5dp"
                android:layout_width="match_parent"
                android:layout_height="wrap_content">
 
+               <ImageView
+                   android:id="@+id/ivMenuIcon"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/menu1"
+                   android:layout_alignParentLeft="true"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="0dp"
+                   android:layout_marginBottom="0dp"
+                   android:padding="7dp"
+                   />
+
+=======
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
                <TextView
                    android:id="@+id/tvProjectTitle"
                    android:layout_width="wrap_content"
@@ -31,7 +50,11 @@
                    android:textSize="18dp"
                    android:layout_marginTop="0dp"
                    android:layout_marginBottom="0dp"
+<<<<<<< HEAD
+                   android:layout_marginLeft="50dp"
+=======
                    android:layout_marginLeft="30dp"
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
                    android:layout_alignParentLeft="true"
                    />
 
@@ -42,6 +65,10 @@
                    android:layout_height="30dp"
                    android:src="@drawable/profile_white"
                    android:layout_alignParentRight="true"
+<<<<<<< HEAD
+                   android:paddingBottom="3dp"
+=======
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
                    />
 
            </RelativeLayout>

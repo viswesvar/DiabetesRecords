@@ -9,7 +9,11 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+<<<<<<< HEAD
+    tools:context=".modules.add_doctor.AddDoctorActivity"
+=======
     tools:context="com.assignment.diabetesrecords.activity.AddDoctorActivity"
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
     tools:showIn="@layout/activity_add_doctor">
 
 
@@ -91,6 +95,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Email Id"
+<<<<<<< HEAD
+                    android:inputType="textEmailAddress"
+=======
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
                     android:imeOptions="actionUnspecified"
                     android:paddingBottom="20dp"
                     android:singleLine="true"

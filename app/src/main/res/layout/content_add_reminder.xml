@@ -9,7 +9,11 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+<<<<<<< HEAD
+    tools:context=".modules.add_reminder.AddReminderActivity"
+=======
     tools:context="com.assignment.diabetesrecords.activity.AddReminderActivity"
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
     tools:showIn="@layout/activity_add_reminder">
 
 
@@ -38,12 +42,21 @@
                 android:layout_weight="1">
 
                 <EditText
+<<<<<<< HEAD
+                    android:id="@+id/titleet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Title"
+                    android:imeOptions="actionUnspecified"
+
+=======
                     android:id="@+id/glucosereadinget"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Glucose Reading"
                     android:imeOptions="actionUnspecified"
                     android:inputType="numberDecimal"
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
                     android:maxLines="1"
                     android:paddingBottom="20dp"
                     android:singleLine="true"
@@ -123,7 +136,11 @@
                 />
 
             <Spinner
+<<<<<<< HEAD
+                android:id="@+id/spRepeationFrequency"
+=======
                 android:id="@+id/ReadingTimings"
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/reminder_frequency_arrays"

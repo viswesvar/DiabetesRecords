@@ -2,15 +2,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
+    tools:context=".modules.add_doctor.DoctorFragment">
+
+
+    <LinearLayout
+        android:id="@+id/LLDoctorListContainer"
+=======
     tools:context=".fragments.DoctorFragment">
 
 
     <LinearLayout
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
+<<<<<<< HEAD
+        android:layout_marginTop="10dp"
+
+        >
+
+
+
+
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:tools="http://schemas.android.com/tools"
+
+            android:id="@+id/itemlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:choiceMode="none"
+            android:clickable="false"
+            android:fadingEdge="none"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="vertical"
+            android:scrollingCache="false"
+            android:smoothScrollbar="true"
+
+            />
+=======
 
         >
 
@@ -173,6 +209,7 @@
 
 
         </LinearLayout>
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
         <View
             android:layout_marginTop="3dp"
@@ -186,11 +223,19 @@
 
 
     <LinearLayout
+<<<<<<< HEAD
+
+=======
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
+<<<<<<< HEAD
+        android:layout_marginBottom="10dp"
+=======
         android:layout_marginBottom="70dp"
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
         >
 
         <Button

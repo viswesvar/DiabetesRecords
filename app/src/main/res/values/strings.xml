@@ -1,5 +1,9 @@
 <resources>
+<<<<<<< HEAD
+    <string name="app_name">Diabetes Records</string>
+=======
     <string name="app_name">Diabetes Records1</string>
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
     <string name="action_settings">Settings</string>
 
@@ -43,5 +47,11 @@
     <string name="title_activity_add_appointment">Appointment</string>
     <string name="title_activity_add_reminder">Add Reminder</string>
     <string name="title_activity_my_profile">My Profile Activity</string>
+<<<<<<< HEAD
+    <string name="permission_message_rationale_all">Application needs access to all few permission to perform its operations.</string>
+
+    <string name="ok">OK</string>
+=======
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
 </resources>

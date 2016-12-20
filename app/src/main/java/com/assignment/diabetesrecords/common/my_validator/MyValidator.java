@@ -1,7 +1,14 @@
 package com.assignment.diabetesrecords.common.my_validator;
 
+<<<<<<< HEAD
+import java.util.regex.Pattern;
+
+/**
+ * Created by Calculator Free on 11/24/16.
+=======
 /**
  * Created by Viswesvar on 11/24/16.
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
  */
 public class MyValidator {
 
@@ -187,6 +194,19 @@ public class MyValidator {
         return result;
     }
 
+<<<<<<< HEAD
+    public static boolean isValidEmaillId(String email){
+
+        return Pattern.compile("^(([\\w-]+\\.)+[\\w-]+|([a-zA-Z]{1}|[\\w-]{2,}))@"
+                + "((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?"
+                + "[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\."
+                + "([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?"
+                + "[0-9]{1,2}|25[0-5]|2[0-4][0-9])){1}|"
+                + "([a-zA-Z]+[\\w-]+\\.)+[a-zA-Z]{2,4})$").matcher(email).matches();
+    }
+
+=======
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
 
 }

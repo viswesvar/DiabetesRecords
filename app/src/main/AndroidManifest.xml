@@ -2,6 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.assignment.diabetesrecords">
 
+<<<<<<< HEAD
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+
+=======
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,8 +17,12 @@
         android:theme="@style/MyMaterialTheme">
         <activity
             android:name=".activity.MainActivity"
+<<<<<<< HEAD
+            android:label="@string/title_activity_icon_text_tabs">
+=======
             android:label="@string/title_activity_icon_text_tabs"
             android:launchMode="singleTop">
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,6 +30,25 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
+            android:name=".modules.add_doctor.AddDoctorActivity"
+            android:label="@string/title_activity_add_doctor"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".modules.app_appointment.AddAppointmentActivity"
+            android:label="@string/title_activity_add_appointment"
+            android:theme="@style/MyMaterialTheme" />
+
+        <activity
+            android:name=".modules.add_reminder.AddReminderActivity"
+            android:label="@string/title_activity_add_reminder"
+            android:theme="@style/MyMaterialTheme" />
+
+        <activity
+            android:name=".modules.my_profile.MyProfileActivity"
+            android:label="@string/title_activity_add_reminder"
+            android:theme="@style/MyMaterialTheme" />
+=======
             android:name=".activity.AddDoctorActivity"
             android:label="@string/title_activity_add_doctor"
             android:parentActivityName=".activity.MainActivity"
@@ -37,6 +68,7 @@
             android:parentActivityName=".activity.MainActivity"
             android:theme="@style/MyMaterialTheme"/>
 
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
 
     </application>

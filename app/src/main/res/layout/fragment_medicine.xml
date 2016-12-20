@@ -2,18 +2,87 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    tools:context=".modules.medicine.MedicineFragment">
+
+    <LinearLayout
+        android:id="@+id/LLContainer"
+=======
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
     tools:context=".fragments.MedicineFragment">
 
     <LinearLayout
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
+<<<<<<< HEAD
+
         >
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/dateet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Date"
+                    android:imeActionId="@+id/login"
+                    android:imeActionLabel="Date"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="datetime"
+                    android:maxLines="1"
+                    android:paddingBottom="20dp"
+                    android:singleLine="true"
+                    android:textAppearance="?android:textAppearanceSmall" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/timeet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Time"
+                    android:imeActionId="@+id/login"
+                    android:imeActionLabel="Time"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="datetime"
+                    android:maxLines="1"
+                    android:paddingBottom="20dp"
+                    android:singleLine="true"
+                    android:textAppearance="?android:textAppearanceSmall" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+=======
+        >
+
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,7 +98,11 @@
                 />
 
             <Spinner
+<<<<<<< HEAD
+                android:id="@+id/spReadingTimings"
+=======
                 android:id="@+id/ReadingTimings"
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/glucose_reading_taken_arrays"
@@ -43,11 +116,14 @@
 
 
 
+<<<<<<< HEAD
+=======
 
 
 
 
 
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,18 +137,33 @@
                 android:layout_weight="1">
 
                 <EditText
+<<<<<<< HEAD
+                    android:id="@+id/etTitle"
+=======
                     android:id="@+id/titleet"
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Title"
                     android:imeOptions="actionUnspecified"
                     android:paddingBottom="20dp"
                     android:singleLine="true"
+<<<<<<< HEAD
+                    android:textAppearance="?android:textAppearanceSmall"
+
+
+                    />
+=======
                     android:textAppearance="?android:textAppearanceSmall" />
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -86,31 +177,95 @@
                 android:layout_weight="1">
 
                 <EditText
+<<<<<<< HEAD
+                    android:id="@+id/etDescription"
+=======
                     android:id="@+id/descriptionet"
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Description"
                     android:imeOptions="actionUnspecified"
                     android:paddingBottom="20dp"
                     android:singleLine="true"
+<<<<<<< HEAD
+                    android:textAppearance="?android:textAppearanceSmall"
+
+
+                    />
+=======
                     android:textAppearance="?android:textAppearanceSmall" />
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
 
         <LinearLayout
+<<<<<<< HEAD
+            android:id="@+id/LLInsulineInfo"
+=======
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
 
             <android.support.design.widget.TextInputLayout
+<<<<<<< HEAD
+                android:id="@+id/insulineinformation"
+=======
                 android:id="@+id/insuline"
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
 
                 <EditText
+<<<<<<< HEAD
+                    android:id="@+id/etInsulineInformation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Insuline/Tablet Information"
+                    android:imeOptions="actionUnspecified"
+                    android:paddingBottom="20dp"
+                    android:singleLine="true"
+                    android:textAppearance="?android:textAppearanceSmall"
+
+
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/LLContainer"
+
+        >
+
+        <Button
+            android:id="@+id/bSave"
+            android:text="Save"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content" />
+
+
+
+        <Button
+            android:id="@+id/bAddAnother"
+            android:text="Add Another"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+=======
                     android:id="@+id/insulineet"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -206,6 +361,7 @@
         android:layout_weight=".5"
         android:layout_height="wrap_content" />
 </LinearLayout>
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
 
 

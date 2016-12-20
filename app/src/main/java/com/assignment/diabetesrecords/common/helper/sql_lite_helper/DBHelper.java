@@ -5,7 +5,11 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 /**
+<<<<<<< HEAD
+ * Created by Calculator Free on 11/24/16.
+=======
  * Created by viswesvar on 11/24/16.
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
  */
 public class DBHelper extends SQLiteOpenHelper
 {
@@ -22,6 +26,21 @@ public class DBHelper extends SQLiteOpenHelper
 
         db.execSQL("create table diabetes_entry(diabetes_entry_id integer PRIMARY KEY AUTOINCREMENT,entry_date text,entry_time text,food_taken_status text,glucose_reading real,notes text)");
 
+<<<<<<< HEAD
+        db.execSQL("create table medicine_record(id integer PRIMARY KEY AUTOINCREMENT,entry_date text,entry_time text,food_taken_status text,title text,description text,insulineinformation text)");
+
+        db.execSQL("create table doctor(id integer PRIMARY KEY AUTOINCREMENT,name text,phone text,emailid text)");
+
+        db.execSQL("create table appointment(id integer PRIMARY KEY AUTOINCREMENT,doctor_id integer, doctor_name text, doctor_phone text, doctor_email text, appointment_date text,appointment_time text,appointment_reason text)");
+
+        db.execSQL("create table my_profile(id integer PRIMARY KEY AUTOINCREMENT,first_name text,last_name text,middle_name text,dob text,diabetes_type text,gender text)");
+
+        db.execSQL("create table reminder(id integer PRIMARY KEY AUTOINCREMENT, title text, description text, repeation_frequency text, reminder_date text,reminder_time text)");
+
+
+
+=======
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
         //db.execSQL("delete table category");
       //  db.execSQL("create table category(categoryid integer PRIMARY KEY AUTOINCREMENT,categoryname text)");

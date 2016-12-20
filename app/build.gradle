@@ -2,7 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
+<<<<<<< HEAD
+    buildToolsVersion '25.0.2'
+=======
     buildToolsVersion "23.0.1"
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
     defaultConfig {
         applicationId "com.assignment.diabetesrecords"

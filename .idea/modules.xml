@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/DiabetesRecords versionV.1.iml" filepath="$PROJECT_DIR$/DiabetesRecords versionV.1.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/DiabetesRecords.iml" filepath="$PROJECT_DIR$/DiabetesRecords.iml" />
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

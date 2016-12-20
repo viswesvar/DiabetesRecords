@@ -1,7 +1,11 @@
 package com.assignment.diabetesrecords.entity;
 
 /**
+<<<<<<< HEAD
+ * Created by Calculator Free on 11/24/16.
+=======
  * Created by viswesvar on 11/24/16.
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
  */
 public class DiabetesEntry {
 

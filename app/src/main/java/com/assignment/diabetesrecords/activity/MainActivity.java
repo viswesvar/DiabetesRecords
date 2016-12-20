@@ -19,12 +19,23 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.assignment.diabetesrecords.R;
+<<<<<<< HEAD
+import com.assignment.diabetesrecords.fragments.FoodExerciseFragment;
+import com.assignment.diabetesrecords.modules.add_doctor.DoctorFragment;
+import com.assignment.diabetesrecords.modules.add_reminder.AddReminderActivity;
+import com.assignment.diabetesrecords.modules.diabetes_entry.EntriesFragment;
+import com.assignment.diabetesrecords.modules.graph.GraphFragment;
+import com.assignment.diabetesrecords.modules.medicine.MedicineFragment;
+import com.assignment.diabetesrecords.modules.my_profile.MyProfileActivity;
+import com.assignment.diabetesrecords.modules.summary.SummaryFragment;
+=======
 import com.assignment.diabetesrecords.fragments.DoctorFragment;
 import com.assignment.diabetesrecords.fragments.EntriesFragment;
 import com.assignment.diabetesrecords.fragments.FoodExerciseFragment;
 import com.assignment.diabetesrecords.fragments.GraphFragment;
 import com.assignment.diabetesrecords.fragments.MedicineFragment;
 import com.assignment.diabetesrecords.fragments.SummaryFragment;
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +50,11 @@ public class MainActivity extends AppCompatActivity implements
     /** The Drawer layout. */
     private DrawerLayout mDrawerLayout;
 
+<<<<<<< HEAD
+    private ImageView ivProfile, ivMenuIcon;
+=======
     private ImageView ivProfile;
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
     private Toolbar toolbar;
     private TabLayout tabLayout;
@@ -106,11 +121,37 @@ public class MainActivity extends AppCompatActivity implements
             }
         });
 
+<<<<<<< HEAD
+
+
+
+
+=======
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
         initLeftSlidingMenu(); //LK: Added here..
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         //=================================================
         initActionbar();
 
+<<<<<<< HEAD
+        ivMenuIcon= (ImageView) findViewById(R.id.ivMenuIcon);
+        ivMenuIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(mDrawerLayout.isDrawerOpen(GravityCompat.START))
+                {
+                    mDrawerLayout.closeDrawer(GravityCompat.START);
+                }
+                else
+                {
+                    mDrawerLayout.openDrawer(GravityCompat.START);
+                }
+
+            }
+        });
+
+=======
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
 
     }
@@ -281,8 +322,13 @@ public class MainActivity extends AppCompatActivity implements
      //   EntriesFragment entriesFragment = EntriesFragment.newInstance(this);
         adapter.addFrag(EntriesFragment.newInstance(MainActivity.this), "Entries");
         adapter.addFrag(new GraphFragment(), "Graph");
+<<<<<<< HEAD
+        adapter.addFrag(MedicineFragment.newInstance(MainActivity.this), "Medicine");
+        adapter.addFrag(DoctorFragment.newInstance(MainActivity.this), "Doctor");
+=======
         adapter.addFrag(new MedicineFragment(), "Medicine");
         adapter.addFrag(new DoctorFragment(), "Doctor");
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
         adapter.addFrag(new FoodExerciseFragment(), "Food & Exercise");
         viewPager.setAdapter(adapter);
     }

@@ -5,7 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+<<<<<<< HEAD
+    tools:context=".modules.app_appointment.AddAppointmentActivity"
+    android:id="@+id/sample_main_layout"
+    >
+=======
     tools:context="com.assignment.diabetesrecords.activity.AddAppointmentActivity">
+>>>>>>> 24dbe36e5570e0cecbbeab9d12b5e025f36d27e8
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
